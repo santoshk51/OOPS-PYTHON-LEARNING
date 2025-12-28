@@ -8,10 +8,11 @@ class employee:
 		print("finished executing attributes/data")
 
 	def travel(self, destination):
+		print("manually called travel method")
 		print(f"Employee is travelling to {destination}")
 
 # create an object/instance of employee class
 sk = employee()
 
-# sk.travel("karela")
+sk.travel("karela")
 		
