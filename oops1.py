@@ -25,3 +25,8 @@ print(type(my_str))
 lst = [1,2,3]
 
 print(lst.count(2))
+
+a = 'x'
+b = 'y'
+print(a+b)
+
