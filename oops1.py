@@ -15,4 +15,13 @@ class employee:
 sk = employee()
 
 sk.travel("karela")
+
+print(type(sk))
+my_str = "hello world"
 		
+my_str = my_str.capitalize()
+print(type(my_str))
+
+lst = [1,2,3]
+
+print(lst.count(2))
