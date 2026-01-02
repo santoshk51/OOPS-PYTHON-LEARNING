@@ -47,24 +47,48 @@ f5 = x <= y
 
 # Membership & Identity operators
 
-lst = [1,2,3,4,5]
-lst1 = [1,2,3,4,5]
-x =5
+# lst = [1,2,3,4,5]
+# lst1 = [1,2,3,4,5]
+# x =5
 
-print(lst is not lst1)
+# print(lst is not lst1)
 
 # name  = input("Enter your name: ")
 # print("Hello", name)
 
 #Type conversion
 
-age = int(input("Enter your age: "))
-price = float(input("Enter the price: "))
-print(age,"", price)
+# age = int(input("Enter your age: "))
+# price = float(input("Enter the price: "))
+# print(age,"", price)
 
-result = 10 + 2 * 3 # Multiplication happens first: 10 + (2 * 3) = 16
-print(result)
-result = (10 + 2) * 3 # Parentheses first: (10 + 2) * 3 = 36
-print(result)
-result = 2 ** 3 ** 2 # Right-to-left exponentiation: 2 ** (3 ** 2) = 2 ** 9 = 512
-print(result)
+# result = 10 + 2 * 3 # Multiplication happens first: 10 + (2 * 3) = 16
+# print(result)
+# result = (10 + 2) * 3 # Parentheses first: (10 + 2) * 3 = 36
+# print(result)
+# result = 2 ** 3 ** 2 # Right-to-left exponentiation: 2 ** (3 ** 2) = 2 ** 9 = 512
+# print(result)
+
+## sets
+
+
+## defining an empty set
+
+# set_var = set()
+# If else statements
+# t2 = 10
+# if x <= 5:
+# 	print("T1 is greater than 5")
+# else:
+# 	print("x is not greatr=er than 5")
+
+u1 = 5
+if u1 > 10:
+	print("x is greater than 10")
+elif u1 > 5:
+	print("x is greater than 5 but not more than 10")
+elif u1 == 5:
+	print("x is exactally 5")
+else:
+	print("x is less than 5")
+
