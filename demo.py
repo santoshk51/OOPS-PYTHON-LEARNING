@@ -105,5 +105,57 @@ else:
 
 print("category:", category)
 
+# tuple
 
-	
+tup = (2,3,4,1)
+
+print(type(tup))
+print(tup[0])
+print(tup.count(4))
+# tup[0] = 5 # error
+
+tupl = [1,2,3,2,1]
+
+
+tup11 = (1.0)
+print(tup11)
+print(type(tup11))
+
+# tup[0] = 43
+
+# tup1 = ()
+
+# tup2 = (1,)
+# tup3 = (1,2,3)
+
+my_list = []
+# user1 = input("Enter your fav movie: ")
+# user2 = input("Enter your fav movie: ")
+# user3 = input("Enter your fav movie: ")
+
+# my_list.append(user1)
+# my_list.append(user2)
+# my_list.append(user3)
+# print(my_list)
+
+# another way
+
+movies = []
+
+movies.append(input("Enter your 1st Movie: "))
+movies.append(input("Enter your 2st Movie: "))
+movies.append(input("Enter your 3st Movie: "))
+
+print(movies)
+
+#palidrome or not
+
+palid = [1,2,3,2,1]
+
+plad1 = palid.copy()
+
+plad1.reverse()
+if plad1 == palid:
+	print("yes")
+else:
+	print("not")
