@@ -17,7 +17,8 @@ def print_digits(n):
         return
     print_digits(n // 10)
     print(n % 10, end=" ")
-    
+
+
 
 num = int(input("Enter any number: "))
 print_digits(num)
