@@ -41,9 +41,6 @@ def studentDictonary(student):
 				print("Error")
 
 					
-			
-
-
 
 student = {}
 
