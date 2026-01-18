@@ -11,6 +11,7 @@ new_population = int(input("Enter population: "))
 
 cities[new_city] = population
 
+
 with open("cities.json", "w") as file:
 	json.dump(cities, file, indent=4)
 

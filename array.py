@@ -26,7 +26,10 @@ val.insert(2,50)
 for i in range(0, len(val)):
 	print(val[i], end = " ")
 
+
 copyArr = array(val.typecode , (x*2 for x in val))
+
+
 
 copyArr.pop()
 
