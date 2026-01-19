@@ -5,7 +5,6 @@ class chatbook:
 		self.loggedin = False
 		self.menu()
 
-
 	def menu(self):
 		user_input = input("""welcome to chatbook!! How would you like to proceed?
 					 1. Press 1 to signup
