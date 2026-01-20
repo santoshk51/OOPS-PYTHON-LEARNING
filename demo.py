@@ -58,16 +58,16 @@ f5 = x <= y
 
 #Type conversion
 
-# age = int(input("Enter your age: "))
-# price = float(input("Enter the price: "))
-# print(age,"", price)
+age = int(input("Enter your age: "))
+price = float(input("Enter the price: "))
+print(age,"", price)
 
-# result = 10 + 2 * 3 # Multiplication happens first: 10 + (2 * 3) = 16
-# print(result)
-# result = (10 + 2) * 3 # Parentheses first: (10 + 2) * 3 = 36
-# print(result)
-# result = 2 ** 3 ** 2 # Right-to-left exponentiation: 2 ** (3 ** 2) = 2 ** 9 = 512
-# print(result)
+result = 10 + 2 * 3 # Multiplication happens first: 10 + (2 * 3) = 16
+print(result)
+result = (10 + 2) * 3 # Parentheses first: (10 + 2) * 3 = 36
+print(result)
+result = 2 ** 3 ** 2 # Right-to-left exponentiation: 2 ** (3 ** 2) = 2 ** 9 = 512
+print(result)
 
 ## sets
 
@@ -129,14 +129,14 @@ print(type(tup11))
 # tup3 = (1,2,3)
 
 my_list = []
-# user1 = input("Enter your fav movie: ")
-# user2 = input("Enter your fav movie: ")
-# user3 = input("Enter your fav movie: ")
+user1 = input("Enter your fav movie: ")
+user2 = input("Enter your fav movie: ")
+user3 = input("Enter your fav movie: ")
 
-# my_list.append(user1)
-# my_list.append(user2)
-# my_list.append(user3)
-# print(my_list)
+my_list.append(user1)
+my_list.append(user2)
+my_list.append(user3)
+print(my_list)
 
 # another way
 
