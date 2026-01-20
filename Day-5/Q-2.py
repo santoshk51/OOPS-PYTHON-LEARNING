@@ -17,9 +17,9 @@ class Book:
 			print("_", review)
 
 b1 = Book("atomic habit","james")
-# b2 = Book("we were never meant to be.","krishna", "3star")
-# b3 = Book("alone","rk", "2star")
-# b4 = Book("panchayat","mels", "5star")
+b2 = Book("we were never meant to be.","krishna", "3star")
+b3 = Book("alone","rk", "2star")
+b4 = Book("panchayat","mels", "5star")
 
 b1.add_review("very useful book")
 b1.add_review("i liked it")
