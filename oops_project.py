@@ -35,6 +35,7 @@ class chatbook:
 		print("\n")
 		self.menu()
 
+
 	def signin(self):
 		if self.username == '' and self.password == '':
 			print("Please signup first by pressing 1 in the main menu")
