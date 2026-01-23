@@ -1,7 +1,6 @@
 # import numpy as np
 from numpy import *
 
-
 val = array([1,2,3,4,'a','b','hello','sir',4.6])
 
 for x in val:
@@ -9,7 +8,6 @@ for x in val:
 
 
 # multidimensional array
-
 zero = array(10)
 print(zero)
 
